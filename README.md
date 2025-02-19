@@ -12,7 +12,7 @@ Website bán hàng Tagluxe
 [Tải MongoDB](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.4-signed.msi)
 - Sau khi cài đặt, mở MongoDB và connect localhost, tạo database có tên `tagluxe_shopping_dev` và *tạm thời import data từ file .json của Q.Huy*
 ### c. Các công cụ còn lại
-Sau khi tải project về. Trong đó, mở Terminal trong VSCode và nhập `npm install` để cài đặt các package còn lại trong package.json và package-lock-json
+Sau khi tải project về. Trong đó, mở Terminal trong VSCode và nhập `npm install` để cài đặt các package còn lại trong `package.json` và `package-lock-json`
 ## 3 Hướng dẫn chạy project
 Mở và split 2 terminal trong VSCode, một bên nhập `npm start`, bên còn lại nhập `npm run watch`. Từ terminal của *npm start*, truy cập đường link của dòng `App listening at http://localhost:3000/` để chạy trang web
 ### Giải thích
