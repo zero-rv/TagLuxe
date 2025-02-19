@@ -16,9 +16,9 @@ Sau khi tải project về. Trong đó, mở Terminal trong VSCode và nhập `n
 ## 3 Hướng dẫn chạy project
 Mở và split 2 terminal trong VSCode, một bên nhập `npm start`, bên còn lại nhập `npm run watch`. Từ terminal của *npm start*, truy cập đường link của dòng `App listening at http://localhost:3000/` để chạy trang web
 ### Giải thích
-- **npm start**: chạy chương trình và lắng nghe thay đổi từ file .js
-- **npm run watch**: lắng nghe thay đổi từ file .scss
+- **npm start**: chạy chương trình và lắng nghe thay đổi từ file `.js`
+- **npm run watch**: lắng nghe thay đổi từ file `.scss`
 ## Lưu ý
-- Phải css trong file `.scss`, **không được nhầm lẫn** với file .css
+- Phải css trong file `.scss`, **không được nhầm lẫn** với file `.css`
 - Nên refresh trang web mỗi khi thay đổi code
 
