@@ -1,0 +1,39 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js -e html,js,css",
+    "watch": "sass src/resources/scss:src/public/css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero-rv/blog_nodejs.git"
+  },
+  "keywords": [
+    "zero",
+    "zero",
+    "blog",
+    "nodejs"
+  ],
+  "author": "zero-rv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zero-rv/blog_nodejs/issues"
+  },
+  "homepage": "https://github.com/zero-rv/blog_nodejs#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "reload": "^3.3.0",
+    "sass": "^1.83.4"
+  }
+}
