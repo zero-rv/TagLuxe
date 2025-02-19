@@ -22,6 +22,7 @@ Mở và split 2 terminal trong VSCode, một bên nhập `npm start`, bên còn
 - **npm run watch**: lắng nghe thay đổi từ file `.scss`
 ## Lưu ý
 - Phải css trong file `.scss`, **không được nhầm lẫn** với file `.css`
-- Nên refresh trang web mỗi khi thay đổi code
-- Khi `commit changes` cần tạo một nhánh mới (new branch) và **pull request** để tránh lỗi khi thay đổi trực tiếp `main branch`
+- Nên `refresh` website mỗi khi thay đổi code
+- Khi `Commit changes` cần tạo một nhánh mới (new branch) và **pull request** để tránh lỗi trước khi thay đổi trực tiếp và gộp vào `main branch`
+
 
