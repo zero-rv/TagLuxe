@@ -1,0 +1,60 @@
+<div class="container w-100 d-flex justify-content-center fs-3">
+    <div class="mt-4 w-75">
+        <h1>Đăng sản phẩm mới</h1>
+
+        <form method="post" action="/products/store">
+            <div class="form-group input-group-lg mt-3">
+                <label for="id" class="form-label">ID sản phẩm</label>
+                <input type="text" class="form-control" id="id" name="id">
+            </div>
+            <div class="form-group input-group-lg mt-3">
+                <label for="name" class="form-label">Tên sản phẩm</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group input-group-lg mt-3">
+                <label for="new_price" class="form-label">Giá mới (đ)</label>
+                <input type="text" class="form-control" id="new_price" name="new_price" required>
+            </div>
+            <div class="form-group input-group-lg mt-3">
+                <label for="old_price" class="form-label">Giá cũ (đ)</label>
+                <input type="text" class="form-control" id="old_price" name="old_price">
+            </div>
+            <div class="form-group input-group-lg mt-3">
+                <label class="form-select-label" for="hot_item">
+                    Hot item
+                </label>
+                <select class="form-select" aria-label="hot_item_select" id="hot_item" name="hot_item" required>
+                    <option value="" disabled selected>-- HOT ITEM ? -- </option>
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                </select>
+            </div>
+            <div class="form-group input-group-lg mt-3">
+                <label class="form-select-label" for="new_item">
+                    New item
+                </label>
+                <select class="form-select" aria-label="new_item_select" id="new_item" name="new_item" required>
+                    <option value="" disabled selected>-- NEW ITEM ? -- </option>
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                </select>
+            </div>
+            <div class="form-group input-group-lg mt-3">
+                <label class="form-select-label" for="best_item">
+                    Best item
+                </label>
+                <select class="form-select" aria-label="best_item_select" id="best_item" name="best_item" required>
+                    <option value="" disabled selected>-- BEST ITEM ? -- </option>
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                </select>
+            </div>
+            <div class="form-group input-group-lg mt-3">
+                <label for="img" class="form-label">URL hình ảnh</label>
+                <input type="text" class="form-control" id="img" name="img" placeholder="https://..." required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg mt-3">Đăng sản phẩm</button>
+        </form>
+    </div>
+</div>

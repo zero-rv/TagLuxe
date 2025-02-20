@@ -13,7 +13,19 @@ class ProductController {
         }
     }
 
+    // GET '/products/create'
+    create(req, res, next) {
+        res.render('products/create');
+    }
 
+    // POST '/products/store'
+    store(req, res, next) {
+        const formData = req.body;
+        const product = new Product(formData);
+        product.save()
+            .then(() => res.redirect('/'))
+            .catch(err => { });
+    }
 }
 
 module.exports = new ProductController();
