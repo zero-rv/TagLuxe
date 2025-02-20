@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "67b6d074f598585b12abb70f"
+  },
+  "id": 1,
+  "name": "test1",
+  "new_price": 20000,
+  "old_price": 10000,
+  "hot_item": true,
+  "new_item": true,
+  "best_item": true,
+  "img": "https://down-vn.img.susercontent.com/file/sg-11134201-7rd6p-lwpjwnvrc9i233.webp",
+  "slug": "test-1"
+},
+{
+  "_id": {
+    "$oid": "67b6d074f598585b12abb710"
+  },
+  "id": 2,
+  "name": "test2",
+  "new_price": 30000,
+  "old_price": 10000,
+  "hot_item": true,
+  "new_item": true,
+  "best_item": true,
+  "img": "https://down-vn.img.susercontent.com/file/sg-11134201-22110-kw9l58efzljv62.webp",
+  "slug": "test-2"
+},
+{
+  "_id": {
+    "$oid": "67b6d074f598585b12abb711"
+  },
+  "id": 3,
+  "name": "test3",
+  "new_price": 250000,
+  "old_price": 250000,
+  "hot_item": true,
+  "new_item": true,
+  "best_item": true,
+  "img": "https://down-vn.img.susercontent.com/file/sg-11134201-22110-lgs7smwczljvd4.webp",
+  "slug": "test-3"
+},
+{
+  "_id": {
+    "$oid": "67b6d074f598585b12abb712"
+  },
+  "id": 4,
+  "name": "test4",
+  "new_price": 150000,
+  "old_price": 150000,
+  "hot_item": true,
+  "new_item": true,
+  "best_item": true,
+  "img": "https://down-vn.img.susercontent.com/file/766fbb7d4f3a58e41ea35c4012d09a16.webp",
+  "slug": "test-4"
+},
+{
+  "_id": {
+    "$oid": "67b6d074f598585b12abb713"
+  },
+  "id": 5,
+  "name": "test5",
+  "new_price": 100000,
+  "old_price": 100000,
+  "hot_item": true,
+  "new_item": true,
+  "best_item": true,
+  "img": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lilnhdiozk7gf7.webp",
+  "slug": "test-5"
+},
+{
+  "_id": {
+    "$oid": "67b6d074f598585b12abb714"
+  },
+  "id": 6,
+  "name": "test6",
+  "new_price": 250000,
+  "old_price": 250000,
+  "hot_item": true,
+  "new_item": true,
+  "best_item": true,
+  "img": "https://down-vn.img.susercontent.com/file/cn-11134301-7r98o-lo224d98hf2gc2.webp",
+  "slug": "test-6"
+},
+{
+  "_id": {
+    "$oid": "67b6d074f598585b12abb715"
+  },
+  "id": 7,
+  "name": "test7",
+  "new_price": 200000,
+  "old_price": 200000,
+  "hot_item": true,
+  "new_item": true,
+  "best_item": true,
+  "img": "https://product.hstatic.net/200000667659/product/15357f1b3d5f8701de4e_1abbc46960b64ff0a87dee51ed332746_master.jpg",
+  "slug": "test-7"
+},
+{
+  "_id": {
+    "$oid": "67b6d074f598585b12abb716"
+  },
+  "id": 8,
+  "name": "test8",
+  "new_price": 100000,
+  "old_price": 100000,
+  "hot_item": true,
+  "new_item": true,
+  "best_item": true,
+  "img": "https://down-vn.img.susercontent.com/file/sg-11134201-7rd6s-lvv5o0h0s9af41.webp",
+  "slug": "test-8"
+}]
