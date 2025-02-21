@@ -1,7 +1,5 @@
 # TagLuxe
 Website bán hàng Tagluxe
-## Trước khi bắt đầu
-Tải project về và giải nén thư mục `node_modules.zip` tại chỗ, sau đó xóa thư mục đó
 ## 1 Các yêu cầu để chạy project
 - NodeJS & ExpressJS
 - Template Engine Handlebars
